@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  /* Dark background */
+  color: #ffffff;
+  /* White text */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center horizontally */
+  justify-content: center;
+  /* Center vertically */
+  height: 100vh;
+  /* Full height of the viewport */
+  padding: 20px;
+  /* Optional padding */
+}
+
+.app-container {
+  background: #1e1e1e;
+  /* Dark background for the app container */
+  border-radius: 8px;
+  /* Rounded corners */
+  padding: 20px;
+  /* Inner padding */
+  width: 100%;
+  /* Full width */
+  max-width: 600px;
+  /* Max width for content */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  /* Optional shadow */
+}
+
+h1,
+h2,
+h3 {
+  color: #00ffcc;
+  /* Highlight color for headings */
+}
+
+.main-content {
+  text-align: center;
+  /* Center text inside the main content */
+}
+
+.investment-form {
+  display: flex;
+  flex-direction: column;
+  /* Vertical stacking */
+  align-items: center;
+  /* Center form items */
+  width: 100%;
+  /* Full width for the form */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+  /* Ensure full width for each form group */
+}
+
+.form-input,
+.form-select,
+.submit-button {
+  width: 100%;
+  /* Full width */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #333;
+  /* Input background color */
+  color: #fff;
+  /* Input text color */
+}
+
+.submit-button {
+  background: #00ffcc;
+  /* Button background color */
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: #00cc99;
+  /* Button hover color */
+}
+
+.result-container {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  /* Full width */
+  background: #1e1e1e;
+  /* Dark background for results */
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.results-table th,
+.results-table td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+}
+
+.results-table th {
+  background: #444;
+  /* Table header background */
+}
+
+.chart-container {
+  margin-top: 20px;
+  width: 100%;
+  /* Full width for chart */
+}
